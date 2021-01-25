@@ -1,0 +1,31 @@
+h2{
+  color: red;
+  font-size: 150%;
+  font-family: "verdana";
+  text-align: left;
+}
+
+p{
+  color: white;
+  font-family: "verdana";
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+pre{
+  color: white;
+  font-family: "verdana";
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#content{
+  background-color: #181c39;
+  width: 630px;
+  height: 1100px;
+  padding: 20px;
+  margin: 10px;
+  border: solid 10px #000000;
+  font-size: 20px;
+
+}
