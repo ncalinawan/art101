@@ -7,6 +7,7 @@ var str = "";
 function fizzBuzz() {
   for (var i = 1; i <= 200; i++) {
     if (i % 3 == 0 && i % 5 == 0 && i % 7 == 0) {
+      debugger;
       str = i + " FizzBuzzBoom";
       $("#output").append("<p>" + str + "</p>");
       console.log(i + "fizzbuzzboom")
@@ -38,7 +39,6 @@ function fizzBuzz() {
       str = i;
       $("#output").append("<p>" + str + "</p>");
       console.log(i)
-      debugger;
     }
   }
 }
