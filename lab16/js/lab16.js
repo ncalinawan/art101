@@ -21,7 +21,7 @@
      //   all the action goes in here
      success: function(data) {
          $('#output-text').html("<h2>" + data.title);
-         $('#output-image').html("<img src=" + data.img + "title=" + data.alt + ">");
+         $('#output-image').html("<img src='" + data.img + "'title='" + data.alt + "'>");
      },
      // What we do if the api call fails
      error: function (jqXHR, textStatus, errorThrown) {

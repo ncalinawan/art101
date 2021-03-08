@@ -12,30 +12,30 @@ h2{
 p{
   color: 	#765fb0;
   font-family: "helvetica";
-  font-size: 14px;
+  font-size: 20px;
   text-indent: 20px;
   margin-left: 10px;
 }
 
 #output{
   background-color:	#bee3b6;
-  width: 400px;
+  width: 650px;
   min-height: 80px;
   padding: 20px;
   margin: 10px;
   border: solid 20px #8fd4cb;
-  font-size: 12px;
+  font-size: 20px;
   color: #765fb0;
 }
 
 
 #content{
   background-color:	#bee3b6;
-  width: 500px;
+  width: 750px;
   min-height: 300px;
   padding: 20px;
   margin: 10px;
   border: solid 20px #8fd4cb;
-  font-size: 20px;
+    font-size: 20px;
   color: #765fb0;
 }
